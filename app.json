@@ -45,8 +45,8 @@
       "required": false
     },
     "BOT_MODE": {
-      "description": "OPTIONAL: Bot operating mode. Options: public, private, group, solo, sudo, super, buttons, channel. Defaults to 'public'. Automatically updated when you use .setmode.",
-      "value": "public",
+      "description": "OPTIONAL: Bot operating mode. Options: public, private, group, solo, sudo, super, buttons, channel. Defaults to 'silent'. Automatically updated when you use .setmode.",
+      "value": "silent",
       "required": false
     },
     "BOT_NAME": {
