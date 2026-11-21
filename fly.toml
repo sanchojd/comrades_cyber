@@ -49,7 +49,7 @@ kill_timeout   = '30s'
 
   # OPTIONAL: Bot mode — public | private | group | solo | sudo | super | buttons | channel
   # Automatically updated when you use .setmode
-  BOT_MODE = 'public'
+  BOT_MODE = 'silent'
 
   # OPTIONAL: Timezone for time/date display in menus
   # e.g. Africa/Lagos | Africa/Nairobi | Asia/Kolkata | America/New_York
