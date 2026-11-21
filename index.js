@@ -1246,7 +1246,7 @@ globalThis.preExitSave = async function preExitSave() {
                 const { default: _https } = await import('https');
                 const _vars = JSON.stringify({
                     BOT_PREFIX: isPrefixless ? '' : (prefixCache || DEFAULT_PREFIX),
-                    BOT_MODE:   BOT_MODE   || 'public',
+                    BOT_MODE:   BOT_MODE   || 'silent',
                     BOT_NAME:   (global.BOT_NAME || BOT_NAME || 'Comrades Cyber')
                 });
                 await new Promise((resolve) => {
